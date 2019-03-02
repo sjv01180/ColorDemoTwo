@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">ColorDemoTwo</string>
+    <string name="shuffle">SHUFFLE</string>
+    <string name="enter_color">Enter Color</string>
+    <string-array name="colors">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>indigo</item>
+        <item>purple</item>
+        <item>grey</item>
+        <item>pink</item>
+        <item>white</item>
+        <item>teal</item>
+        <item>goldenrod</item>
+    </string-array>
 </resources>

@@ -1,25 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical"
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
+    <EditText
+        android:id="@+id/input_1"
+        android:hint="@string/enter_color"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/output"
-        android:layout_weight="4"/>
+        android:textSize="@dimen/text_size"
+        android:layout_weight="@dimen/input_weight"
+        tools:ignore="Autofill" />
 
     <EditText
-        android:id="@+id/color_name_input"
+        android:id="@+id/input_2"
+        android:hint="@string/enter_color"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="32sp"/>
+        android:textSize="@dimen/text_size"
+        android:layout_weight="@dimen/input_weight"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/input_3"
+        android:hint="@string/enter_color"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:layout_weight="@dimen/input_weight"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/input_4"
+        android:hint="@string/enter_color"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:layout_weight="@dimen/input_weight"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/input_5"
+        android:hint="@string/enter_color"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:layout_weight="@dimen/input_weight"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/input_6"
+        android:hint="@string/enter_color"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:layout_weight="@dimen/input_weight"
+        tools:ignore="Autofill" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SUBMIT"
-        android:textSize="32sp"
-        android:onClick="submitColor"/>
+        android:textSize="@dimen/text_size"
+        android:text="@string/shuffle"
+        android:onClick="shuffle"
+        />
 
 </LinearLayout>
